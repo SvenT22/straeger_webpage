@@ -2789,6 +2789,31 @@ input, select, textarea {
 				background-color: rgba(144, 144, 144, 0.15);
 			}
 
+		.goto-top {
+			-moz-transition: background-color 0.2s ease-in-out;
+			-webkit-transition: background-color 0.2s ease-in-out;
+			-ms-transition: background-color 0.2s ease-in-out;
+			transition: background-color 0.2s ease-in-out;
+			background-color: rgba(144, 144, 144, 0.075);
+			background-image: url("images/arrow.svg");
+			background-position: center center;
+			background-repeat: no-repeat;
+			position: fixed;
+			bottom: 20px;
+			right: 20px;
+			transform: rotate(180deg);
+			width: 4em;
+			height: 4em;
+			display: block;
+			overflow: hidden;
+			/* position: absolute; */
+			text-indent: 4em;
+			white-space: nowrap;
+			border-radius: 100%;
+			z-index: 1000;
+			cursor: pointer;
+		}
+
 /* Header */
 
 	#header {
